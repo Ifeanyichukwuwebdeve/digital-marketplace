@@ -4,8 +4,8 @@ import axios from 'axios'
 import Web3Modle from 'web3modal'
 import { nftAddress, nftMarketAddress} from '../config'
 
-import NFT from '../artifacts/contracts/NFT.sol/NFT.json';
-import Market from '../artifacts/contracts/NFTMarket.sol/NFTMarket.json';
+import NFT from '../artifacts/contracts/NFT.sol/NFT.json'
+import Market from '../artifacts/contracts/NFTMarket.sol/NFTMarket.json'
 
 
 export default function Home() {
@@ -76,7 +76,7 @@ export default function Home() {
                 </div>
                 <div className='p-4 bg-black'>
                   <p className='text-2xl mb-4 font-bold text-white'>{nftItem.price} Matic</p>
-                  <button className='w-full bg-pink-500 text-white font-bold py-2 px-12 rounded' onClick={() => buyNft(nft)}></button>
+                  <button className='w-full bg-pink-500 text-white font-bold py-2 px-12 rounded' onClick={() => buyNft(nft)}>Buy</button>
                 </div>
               </div>
             ))
