@@ -5,7 +5,7 @@ import Web3Modle from 'web3modal'
 
 import { nftAddress, nftMarketAddress} from '../config'
 
-import NFT from '../artifacts/contracts/NFT.sol/NFT.json'
+import NFT from '../contracts/NFT.json'
 import Market from '../artifacts/contracts/NFTMarket.sol/NFTMarket.json'
 
 export default function CreatorDashboard() {
